@@ -60,13 +60,13 @@ const config: DocsThemeConfig = {
   //   link: siteConfig.links.github
   // },
   logo: 
-    <Image
-      src={siteConfig.logo.href}
-      alt={siteConfig.logo.alt}
-      width={150}
-      height={150}
-      priority
-    />,
+      <Image
+        src={siteConfig.logo.href}
+        alt={siteConfig.logo.alt}
+        width={150}
+        height={150}
+        priority
+      />,
   sidebar: {
     toggleButton: false
   },

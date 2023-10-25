@@ -1,7 +1,19 @@
 {
-  "index": "Wsh !",
-  "getting-started": "Démarrage",
+  "index": "Introduction",
+  "-recomend-": {
+    "title": "App",
+    "type": "separator"
+  },
   "playlists": "Playlists",
+  "-map-": {
+    "title": "Map",
+    "type": "separator"
+  },
+  "-shop-": {
+    "title": "Shop",
+    "type": "separator"
+  },
+
   "about": {
     "title": "A propos ↗",
     "type": "page",

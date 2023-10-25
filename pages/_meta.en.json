@@ -1,7 +1,19 @@
 {
-  "index": "Hello world !",
-  "getting-started": "Getting Started",
+  "index": "Introduction",
+  "-recomend-": {
+    "title": "App",
+    "type": "separator"
+  },
   "playlists": "Playlists",
+  "-map-": {
+    "title": "Map",
+    "type": "separator"
+  },
+  "-shop-": {
+    "title": "Shop",
+    "type": "separator"
+  },
+
   "about": {
     "title": "About ↗",
     "type": "page",
