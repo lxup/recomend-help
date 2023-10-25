@@ -1,9 +1,9 @@
 export type SiteConfig = typeof siteConfig;
 
 export const siteConfig = {
-  name: 'Support Recomend',
+  name: 'Recomend / Help',
   description: 'Recomend customer support',
-  url: 'https://support.recomend.app',
+  url: 'https://help.recomend.app',
   mainNav: [
     {
       title: 'Accueil',
@@ -21,8 +21,8 @@ export const siteConfig = {
   links: {
     discord: 'https://discord.gg/P775UzDJvA',
     twitter: '@recomend_app',
-    github: 'https://github.com/lxup/recomend-support/',
-    github_repo: 'https://github.com/lxup/recomend-support/tree/main/'
+    github: 'https://github.com/lxup/recomend-help/',
+    github_repo: 'https://github.com/lxup/recomend-help/tree/main/'
   },
   colors: [
     "#eb4034",
