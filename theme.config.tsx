@@ -1,21 +1,23 @@
 import React from 'react'
-import * as Nextra from 'nextra-theme-docs'
+import { DocsThemeConfig, LocaleSwitch, ThemeSwitch } from 'nextra-theme-docs'
 import Image from 'next/image'
 import { siteConfig } from './config/site'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
-const config: Nextra.DocsThemeConfig = {
+const config: DocsThemeConfig = {
   useNextSeoProps() {
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
-        titleTemplate: `%s – ${siteConfig.name}`
+        titleTemplate: `%s – ${siteConfig.name}`,
+        description: siteConfig.description
       }
     }
     else {
       return {
-        titleTemplate: siteConfig.name
+        titleTemplate: siteConfig.name,
+        description: siteConfig.description
       }
     }
   },
@@ -42,9 +44,6 @@ const config: Nextra.DocsThemeConfig = {
         {/* <meta name="twitter:image" content="https://html.sammy-codes.com/images/large-profile.jpg" /> */}
       </>
     )
-  },
-  toc: {
-    backToTop: true,
   },
   feedback: {
     labels: 'Yoo',
@@ -74,8 +73,8 @@ const config: Nextra.DocsThemeConfig = {
   navbar: {
     extraContent:
       <>
-        <Nextra.ThemeSwitch lite/>
-        <Nextra.LocaleSwitch lite />
+        <ThemeSwitch lite/>
+        <LocaleSwitch lite />
       </>,
   },
   chat: {
