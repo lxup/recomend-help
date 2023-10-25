@@ -1,20 +1,13 @@
 {
-  "index": "Introduction",
+  "index": "Help center",
   "faq": "FAQs",
-  "-recomend-": {
+  "-app-": {
     "title": "App",
     "type": "separator"
   },
-  "playlists": "Playlists",
-  "-map-": {
-    "title": "Map",
-    "type": "separator"
-  },
-  "-shop-": {
-    "title": "Shop",
-    "type": "separator"
-  },
-
+  "getting-started": "Getting Started",
+  "collection": "Library",
+  "account": "Account",
   "about": {
     "title": "About ↗",
     "type": "page",

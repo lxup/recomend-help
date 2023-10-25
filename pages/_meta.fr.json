@@ -1,22 +1,15 @@
 {
-  "index": "Introduction",
+  "index": "Centre d'Aide",
   "faq": "FAQs",
-  "-recomend-": {
+  "-app-": {
     "title": "App",
     "type": "separator"
   },
-  "playlists": "Playlists",
-  "-map-": {
-    "title": "Map",
-    "type": "separator"
-  },
-  "-shop-": {
-    "title": "Shop",
-    "type": "separator"
-  },
-
+  "getting-started": "Pour commencer",
+  "collection": "Bibliothèque",
+  "account": "Compte",
   "about": {
-    "title": "A propos ↗",
+    "title": "About ↗",
     "type": "page",
     "href": "https://recomend.app/about",
     "newWindow": true
