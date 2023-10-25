@@ -1,0 +1,22 @@
+{
+  "index": "Wsh !",
+  "getting-started": "Démarrage",
+  "playlists": "Playlists",
+  "about": {
+    "title": "A propos ↗",
+    "type": "page",
+    "href": "https://recomend.app/about",
+    "newWindow": true
+  },
+  "contact": {
+    "title": "Contact",
+    "theme": {
+      "breadcrumb": false,
+      "footer": true,
+      "sidebar": false,
+      "toc": true,
+      "pagination": false
+    },
+    "type": "page"
+  }
+}
